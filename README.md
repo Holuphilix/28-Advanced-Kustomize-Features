@@ -902,7 +902,7 @@ Commit with a clear message:
 git commit -m "chore: add advanced Kustomize overlays for dev, staging, prod environments with unique NodePort services"
 ```
 
-## Step 4: Add Remote Repository and Push to GitHub
+### Step 4: Add Remote Repository and Push to GitHub
 
 ### 4.1: Add your GitHub repo as remote (replace URL with your actual repo URL)
 
