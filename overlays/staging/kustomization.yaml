@@ -1,0 +1,23 @@
+namespace: staging
+
+resources:
+  - ../../base
+
+patches:
+  - path: replica_count.yaml
+    target:
+      kind: Deployment
+      name: my-app
+  - path: service.yaml
+    target:
+      kind: Service
+      name: my-app-service
+
+commonLabels:
+  env: staging
+
+configMapGenerator:
+  - name: nginx-config
+    behavior: replace
+    files:
+      - configs/index.html

@@ -1,0 +1,17 @@
+resources:
+  - ../../base
+
+patches:
+  - path: replica_count.yaml
+    target:
+      kind: Deployment
+      name: my-app
+
+configMapGenerator:
+  - name: nginx-config
+    behavior: replace
+    files:
+      - configs/index.html
+
+commonLabels:
+  env: dev
