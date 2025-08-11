@@ -904,7 +904,7 @@ git commit -m "chore: add advanced Kustomize overlays for dev, staging, prod env
 
 ### Step 4: Add Remote Repository and Push to GitHub
 
-### 4.1: Add your GitHub repo as remote (replace URL with your actual repo URL)
+### 4.1: Add your GitHub repo as remote: 
 
 ```bash
 git remote add origin https://github.com/Holuphilix/advanced-kustomize-features.git
@@ -913,6 +913,7 @@ git remote add origin https://github.com/Holuphilix/advanced-kustomize-features.
 ### 4.2: Push your local commits to GitHub
 
 ```bash
+git branch -M main
 git push -u origin main
 ```
 
@@ -930,8 +931,11 @@ This professional setup prepares the project for real-world Kubernetes workflows
 ## Author
 
 **Philip Oluwaseyi Oludolamu**
+
 Email: [oluphilix@gmail.com](mailto:oluphilix@gmail.com)
+
 GitHub: [github.com/Holuphilix](https://github.com/Holuphilix)
+
 LinkedIn: [linkedin.com/in/philipoludolamu](https://linkedin.com/in/philipoludolamu)
 
 **Passionate DevOps Engineer focused on Kubernetes, Terraform, and CI/CD automation. Dedicated to building scalable and maintainable infrastructure-as-code solutions.**
