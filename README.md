@@ -1,4 +1,4 @@
-# **Advanced Kustomize Features for Kubernetes Configuration Management**
+# **Mini Project: Advanced Kustomize Features for Kubernetes Configuration Management**
 
 ## **Project Overview**
 
